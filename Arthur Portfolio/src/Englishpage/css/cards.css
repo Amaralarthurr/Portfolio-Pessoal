@@ -1,5 +1,5 @@
 .card-list1 {
-    margin-bottom: 50rem;
+    margin-bottom: 35rem;
 }
 
 button {
@@ -80,7 +80,10 @@ button {
 @media (width <= 992px){
     .card{
         min-width: 80%;
+    }
 
+    .Habilidades{
+        margin-bottom: -20rem !important;
     }
 }
 
@@ -90,5 +93,9 @@ button {
         justify-content: center;
         align-items: center;
         gap: 2rem;
+    }
+
+    .Habilidades{
+        margin-bottom: -15rem !important;
     }
 }

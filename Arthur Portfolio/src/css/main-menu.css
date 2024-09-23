@@ -70,7 +70,31 @@
 
         .main-txt{
             gap: 3rem;
+
+            & .nametxt{
+                min-width: 100%;
+                justify-content: center !important;
+                & h3{
+                    color: var(--color-white);
+                    font-weight: 400 !important;
+                }
+            }
+
+            & .subtext{
+                display: flex;
+                justify-content: center !important;
+                & h4{
+                    color: var(--color-white);
+                    font-weight: 400 !important;
+                    max-width: 77%;
+                    text-align: center;
+                }
+            }
         }
+    }
+
+    .social-media {
+        height: 30rem;
     }
 
     .arrow-down{
